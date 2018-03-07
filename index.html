@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pepijn van den Broek</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Pepijn van den Broek"/>
+    <meta name="description" content="A personal page with info about me and projects I work on."/>
+    <meta name="theme-color" content="#ee6e73"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://kurozero.xyz"/>
+    <meta property="og:title" content="Kurozero"/>
+    <meta property="og:description" content="A personal page with info about me and projects I work on."/>
+    <meta property="og:image" content="https://b.catgirlsare.sexy/RjFM.png"/>
+    <meta property="og:locale" content="en-US"/>
+
+    <!-- All icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/icons/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/icons/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/icons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/icons/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/icons/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/icons/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/icons/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/icons/apple-touch-icon-152x152.png"/>
+    <link rel="icon" type="image/png" href="./images/icons/favicon-196x196.png" sizes="196x196"/>
+    <link rel="icon" type="image/png" href="./images/icons/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="./images/icons/favicon-128.png" sizes="128x128"/>
+    <meta name="application-name" content="Pepijn van den Broek"/>
+    <meta name="msapplication-TileColor" content="#ee6e73"/>
+    <meta name="msapplication-TileImage" content="./images/icons/mstile-144x144.png"/>
+    <meta name="msapplication-square70x70logo" content="./images/icons/mstile-70x70.png"/>
+    <meta name="msapplication-square150x150logo" content="./images/icons/mstile-150x150.png"/>
+    <meta name="msapplication-wide310x150logo" content="./images/icons/mstile-310x150.png"/>
+    <meta name="msapplication-square310x310logo" content="./images/icons/mstile-310x310.png"/>
+
+    <!-- All stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="./js/main.js"></script>
+
+<!-- Header -->
+<nav>
+    <div class="nav-wrapper">
+        <a class="brand-logo">Welcome</a>
+    </div>
+</nav>
+
+<!-- Modal Structure -->
+<div id="projectsModal" class="modal"></div>
+
+<!-- Content -->
+<div class="container">
+    <div class="card hoverable white lighten-5 z-depth-2 card-margin">
+        <div class="card-content">
+            <span class="center-align card-title"><strong>Projects</strong></span>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        JavaScript/TypeScript (NodeJS)
+                        <span class="new badge" data-badge-caption="">4</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="jeanne" class="collection-item avatar">
+                                <img src="./images/projects/jeanne.png" alt="" class="circle">
+                                <span class="title">Jeanne d'Arc</span>
+                                <p>An advanced and customizable bot for Discord.</p>
+                            </li>
+                            <li id="img-search" class="collection-item avatar">
+                                <i class="material-icons circle light-green darken-2">android</i>
+                                <span class="title">Image-Search</span>
+                                <p>An android app that allowes you to search for images from konachan.com.</p>
+                            </li>
+                            <li id="mordred" class="collection-item avatar">
+                                <img src="./images/projects/mordred.jpg" alt="" class="circle">
+                                <span class="title">Mordred</span>
+                                <p>Mordred is a very WIP bot for Discord made using TypeScript.</p>
+                            </li>
+                            <li id="discotify" class="collection-item avatar">
+                                <img src="./images/projects/discotify.png" alt="" class="circle">
+                                <span class="title">Discotify</span>
+                                <p>A CLI app that shows which song you're listening to on Spotify in Discord as rich presence.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        Go
+                        <span class="new badge" data-badge-caption="">3</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="program-go" class="collection-item avatar">
+                                <img src="./images/projects/program-o.png" alt="" class="circle">
+                                <span class="title">program-go</span>
+                                <p>Small and simple program-o wrapper.</p>
+                            </li>
+                            <li id="go-weeb" class="collection-item avatar">
+                                <i class="material-icons circle blue">code</i>
+                                <span class="title">go-weeb</span>
+                                <p>A wrapper for getting images from rra.ram.moe.</p>
+                            </li>
+                            <li id="kitsu-go" class="collection-item avatar">
+                                <img src="./images/projects/kitsu.png" alt="" class="circle">
+                                <span class="title">kitsu-go</span>
+                                <p>An api wrapper for interacting with the kitsu.io api.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        Rust
+                        <span class="new badge" data-badge-caption="">1</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="maika" class="collection-item avatar">
+                                <img src="./images/projects/maika.png" alt="" class="circle">
+                                <span class="title">Maika</span>
+                                <p>Another Discord bot, this time in Rust using serenity.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        C#
+                        <span class="new badge" data-badge-caption="">3</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="imdbcore" class="collection-item avatar">
+                                <img src="./images/projects/imdb.png" alt="" class="circle">
+                                <span class="title">IMDBCore</span>
+                                <p>An api wrapper for the omdb api.</p>
+                            </li>
+                            <li id="kitsu" class="collection-item avatar">
+                                <img src="./images/projects/kitsu.png" alt="" class="circle">
+                                <span class="title">Kitsu</span>
+                                <p>An api wrapper for interacting with the kitsu.io api (this time in .NET Core).</p>
+                            </li>
+                            <li id="illya" class="collection-item avatar">
+                                <img src="./images/projects/illya.jpg" alt="" class="circle">
+                                <span class="title">Illya</span>
+                                <p>The very first Discord bot I made, project was suspended for awhile but I'm rewriting the code.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        Ruby
+                        <span class="new badge" data-badge-caption="">1</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="hitagi" class="collection-item avatar">
+                                <img src="./images/projects/hitagi.jpg" alt="" class="circle">
+                                <span class="title">Hitagi</span>
+                                <p>Hitagi is another Discord bot (project has been suspended).</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">code</i>
+                        Elixir
+                        <span class="new badge" data-badge-caption="">1</span>
+                    </div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li id="elixirboat" class="collection-item avatar">
+                                <i class="material-icons circle deep-purple">code</i>
+                                <span class="title">ElixirBoat</span>
+                                <p>Yet another Discord bot, just to see how Elixir works and if I like the language.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card hoverable white lighten-5 z-depth-2 card-margin">
+        <div class="card-content">
+            <span class="center-align card-title"><strong>Social Media</strong></span>
+            <table class="highlight centered">
+                <tbody>
+                <tr>
+                    <td>Twitter: <a href="https://twitter.com/kurozer0" target="_blank">twitter.com/kurozer0</a></td>
+                </tr>
+                <tr>
+                    <td>Keybase: <a href="https://keybase.io/kurozero" target="_blank">keybase.io/kurozero</a></td>
+                </tr>
+                <tr>
+                    <td>Discord: Kurozero#0569</td>
+                </tr>
+                <tr>
+                    <td>Github: <a href="https://github.com/kurozeropb" target="_blank">github.com/kurozeropb</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card hoverable white lighten-5 z-depth-2">
+        <div class="card-content">
+            <span class="center-align card-title"><strong>Discord</strong></span>
+            <div class="center-align phone">
+                <p>I have a Discord guild where I give support for projects I've made if people don't understand something or it's
+                    not working as suppose to. Besides that we mostly talk about anime, manga or games.</p>
+            </div>
+            <div id="div-wrapper" class="hide-on-small-only">
+                <div id="left-div" class="right-align">
+                    <p style="width: 90%">I have a Discord guild where I give support for projects I've made if people don't understand something or it's
+                        not working as suppose to. Besides that we mostly talk about anime, manga or games.</p>
+                </div>
+                <div id="right-div" class="left-align">
+                    <iframe src="https://discordapp.com/widget?id=240059867744698368&theme=dark" width="300" height="400"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Help me as a programmer</h5>
+                <p class="grey-text text-lighten-4">Everything costs money and to host my Discord bots 24/7 or to keep
+                    the websites I own running I pay for servers, domain names etc. this is all from my pocket money
+                    that is limited. With your support you make it alot easier for me to keep growing and stay
+                    developing new things.
+                </p><br/>
+                <a class="btn waves-effect waves-light red lighten-3" href="https://www.patreon.com/Kurozero" target="_blank">BECOME A PATRON</a>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/kurozeropb" target="_blank">Github</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/kurozer0" target="_blank">Twitter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://discord.gg/Vf4ne5b" target="_blank">Discord</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://keybase.io/kurozero" target="_blank">Keybase</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 Pepijn van den Broek, All rights reserved
+        </div>
+    </div>
+</footer>
+
+<!--suppress JSValidateTypes, CommaExpressionJS, JSUnresolvedFunction -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-88870908-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+
+</html>
