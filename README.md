@@ -4,7 +4,6 @@
 
   <p>
     I'm not the greatest webdev but I think it looks nice.<br/>
-    Website is created with jQuery, CSS3 and HTML5<br/>
-    With the use of <a href="http://materializecss.com/">materializecss</a> for an easy but very well made design
+    Website is created with <a href="https://vuejs.org/" target="_blank">Vuejs</a> and <a href="https://vuetifyjs.com/en/" target="_blank">Vuetify</a>
   </p>
 </div>
