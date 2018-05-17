@@ -1,0 +1,124 @@
+{
+    "results": [
+        {
+            "title": "[Kotlin] Nekos",
+            "short_desc": "An android app written for nekos.moe",
+            "image": "/static/images/nekos.png",
+            "published": "2018-04-08T11:11:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "kotlin-nekos",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Nekos"}
+            ]
+        },
+        {
+            "title": "[JS] Anime Rss Feeds",
+            "short_desc": "Small script that posts rss updates to a discord channel",
+            "image": "/static/images/rss.png",
+            "published": "2018-04-01T21:17:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "js-anime-rss-feeds",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/anime-rss-feeds"}
+            ]
+        },
+        {
+            "title": "[Kotlin] Colors",
+            "short_desc": "A simple android app to pick a color",
+            "image": "/static/images/colors.png",
+            "published": "2018-03-20T18:56:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "kotlin-colors",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Colors"}
+            ]
+        },
+        {
+            "title": "[Python] CustomRPC",
+            "short_desc": "Set a custom rich presence in discord",
+            "image": "/static/images/customrpc.png",
+            "published": "2018-03-08T11:06:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "python-customrpc",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/CustomRPC"}
+            ]
+        },
+        {
+            "title": "[Go] Yuzu",
+            "short_desc": "A fast and simple discord bot written in Go",
+            "image": "/static/images/yuzu.png",
+            "published": "2018-02-11T16:23:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "go-yuzu",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Yuzu"}
+            ]
+        },
+        {
+            "title": "[C#] Kitsu",
+            "short_desc": "Kitsu.io api wrapper written in C# dotnet core",
+            "image": "/static/images/kitsu.png",
+            "published": "2017-12-22T15:08:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "csharp-kitsu",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Kitsu"}
+            ]
+        },
+        {
+            "title": "[C#] IMDBCore",
+            "short_desc": "omdb api wrapper written in C# dotnet core",
+            "image": "/static/images/imdb.png",
+            "published": "2017-12-18T04:12:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "csharp-imdbcore",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/IMDBCore"}
+            ]
+        },
+        {
+            "title": "[TS] Discotify",
+            "short_desc": "A simple script to show what song on spotify you're listening to in discord",
+            "image": "/static/images/discotify.png",
+            "published": "2017-11-29T01:37:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "ts-discotify",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/discotify"}
+            ]
+        },
+        {
+            "title": "[Rust] Nobu",
+            "short_desc": "A fast and easy to use discord bot written in Rust",
+            "image": "/static/images/nobu.png",
+            "published": "2017-11-22T04:04:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "rust-nobu",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Nobu"}
+            ]
+        },
+        {
+            "title": "[JS] Jeanne d'Arc",
+            "short_desc": "A fast, customizable and feature rich discord bot",
+            "image": "/static/images/jeanne.png",
+            "published": "2017-01-29T23:26:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "js-jeanne-d-arc",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/Chaldea-devs/Jeanne"}
+            ]
+        }, {
+            "title": "[C#] Mashu",
+            "short_desc": "A customizable discord bot written in C# dotnet core",
+            "image": "/static/images/mashu.png",
+            "published": "2016-09-16T15:27:00Z",
+            "author": "Pepijn van den Broek",
+            "id": "csharp-mashu",
+            "buttons": [
+                {"class": "fab fa-github", "href": "https://github.com/Chaldea-devs/Mashu"}
+            ]
+        }
+    ]
+}
