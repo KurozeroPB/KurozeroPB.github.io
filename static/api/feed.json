@@ -8,18 +8,8 @@
             "author": "Pepijn van den Broek",
             "id": "kotlin-nekos",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Nekos"}
-            ]
-        },
-        {
-            "title": "[JS] Anime Rss Feeds",
-            "short_desc": "Small script that posts rss updates to a discord channel",
-            "image": "/static/images/rss.png",
-            "published": "2018-04-01T21:17:00Z",
-            "author": "Pepijn van den Broek",
-            "id": "js-anime-rss-feeds",
-            "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/anime-rss-feeds"}
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Nekos"},
+                {"class": "fab fa-google-play", "href": "https://play.google.com/store/apps/details?id=xyz.kurozero.nekosmoe"}
             ]
         },
         {
@@ -30,7 +20,8 @@
             "author": "Pepijn van den Broek",
             "id": "kotlin-colors",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Colors"}
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Colors"},
+                {"class": "fab fa-google-play", "href": "https://play.google.com/store/apps/details?id=xyz.kurozero.colors"}
             ]
         },
         {
@@ -63,7 +54,8 @@
             "author": "Pepijn van den Broek",
             "id": "csharp-kitsu",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Kitsu"}
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Kitsu"},
+                {"class": "nuget", "href": "https://www.nuget.org/packages/Kitsu"}
             ]
         },
         {
@@ -74,7 +66,8 @@
             "author": "Pepijn van den Broek",
             "id": "csharp-imdbcore",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/IMDBCore"}
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/IMDBCore"},
+                {"class": "nuget", "href": "https://www.nuget.org/packages/IMDBCore"}
             ]
         },
         {
@@ -85,29 +78,20 @@
             "author": "Pepijn van den Broek",
             "id": "ts-discotify",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/discotify"}
+                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/discotify"},
+                {"class": "fab fa-npm", "href": "https://www.npmjs.com/package/discotify"}
             ]
         },
         {
-            "title": "[Rust] Nobu",
-            "short_desc": "A fast and easy to use discord bot written in Rust",
-            "image": "/static/images/nobu.png",
-            "published": "2017-11-22T04:04:00Z",
-            "author": "Pepijn van den Broek",
-            "id": "rust-nobu",
-            "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/KurozeroPB/Nobu"}
-            ]
-        },
-        {
-            "title": "[JS] Jeanne d'Arc",
+            "title": "[Kotlin] Jeanne d'Arc",
             "short_desc": "A fast, customizable and feature rich discord bot",
             "image": "/static/images/jeanne.png",
             "published": "2017-01-29T23:26:00Z",
             "author": "Pepijn van den Broek",
-            "id": "js-jeanne-d-arc",
+            "id": "kotlin-jeanne-d-arc",
             "buttons": [
-                {"class": "fab fa-github", "href": "https://github.com/Chaldea-devs/Jeanne"}
+                {"class": "fab fa-github", "href": "https://github.com/Chaldea-devs/Jeanne"},
+                {"class": "fas fa-external-link-alt", "href": "https://jeannedarc.xyz"}
             ]
         }, {
             "title": "[C#] Mashu",
